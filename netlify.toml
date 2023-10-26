@@ -1,5 +1,5 @@
 [build]
-  command = "sleep 90000 && ./run.sh build:prod"
+  command = "./run.sh build:prod"
   functions = "functions"
   publish = "dist"
 
